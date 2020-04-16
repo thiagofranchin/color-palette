@@ -1,0 +1,19 @@
+// Colors
+$theme-colors: ();
+$theme-colors: map-merge(
+  (
+    "gatsby-dark":  #542C85,
+    "gatsby":       #9963BA,
+    "gatsby-light": #C9ABDB,
+    "gray-dark":    #272c30,
+    "gray":         #c8c8c8,
+  ),
+  $theme-colors
+);
+
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+$font-family-base: 'Roboto', sans-serif;
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap.scss';
